@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default function about() {
   return (
-    <div className="flex flex-col justify-center mt-20 items-center">
+    <div className="flex bg-white flex-col justify-center mt-20 items-center z-10">
       <Image
-        src="/skills.png"
+        src="/skill.png"
         alt="Skills"
         width={800}
         height={1000}
