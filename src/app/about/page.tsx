@@ -1,6 +1,6 @@
  
 import Image from "next/image";
-import Link from "next/link";
+
 
 
 
@@ -26,7 +26,9 @@ FCMA, PSC SHAIDERA LTD & SHAIDERA LLC
 <ul>
 <ol>Contact: +92,333,036,9992, +92,321,284,0554</ol>
 <ol>Email: <a href="mailto:shaidera@yahoo.com" className="text-gray-500 hover:underline">shaidera@yahoo.com</a></ol>
-<ol>Website: <a href="https://shaidera.co.uk" className="text-gray-500 hover:underline">https://shaidera.co.uk</a></ol>
+<ol>Website: https://shaidera.co.uk</ol>
+
+{/* <ol>Website: <a href="https://shaidera.co.uk" className="text-gray-500 hover:underline">https://shaidera.co.uk</a></ol> */}
 </ul>
 
 
