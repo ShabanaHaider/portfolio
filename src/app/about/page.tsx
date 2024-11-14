@@ -14,7 +14,7 @@ export default function about() {
         height={1200}
       />
     
-      <div className="flex justify-left items-center rounded-lg text-2xl pt-20  bg-black py-5 px-5">
+      <div className="flex justify-left items-center rounded-lg md:text-sm lg:text-2xl pt-20  bg-black py-5 px-5">
         
           <p>I have a vast experience of working in different organizational setups including private firms, multinational & Government Organization. My objective is to obtain career job which commensurate with my qualification and working experience to explore new opportunities.
 

@@ -6,13 +6,14 @@ export default function Grid() {
     return (
         <div>
             {/* Header Section */}
-            <div className="flex justify-center items-center text-4xl my-12">
-                <h1> I am learning Artificial Intelligence, Web 3.0 & Metaverse at Governor House Karachi</h1>
+            <div className="flex justify-center items-center my-12">
+                <h1 className="text-blue-700 md:text-yellow-900 lg:text-white 
+                text-center font-extrabold text-2xl md:text-4xl lg:text-6xl"> I am learning Artificial Intelligence, Web 3.0 & Metaverse at Governor House Karachi</h1>
             </div>
 
             {/* Skills Section */}
-            <div className="flex justify-center w-4/5 mt-10 md:text-2xl text-4xl">
-                <div className="flex gap-10 font-bold text-black text-4xl"> 
+            <div className="flex justify-center w-4/5 mt-10 md:text-2xl lg:text-4xl">
+                <div className="flex gap-10 font-bold text-black"> 
                     <p><FaHtml5 /></p>                      
                     <p>TAILWIND CSS</p>
                     <p>CUSTOM CSS</p>
@@ -23,7 +24,7 @@ export default function Grid() {
 
             {/* Image Grid Section */}
             <div className="mt-20">
-                <div className="grid grid-cols-2 grid-rows-2 gap-10 pt-5">
+                <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 pt-5">
                     {/* Image 1 */}
                     <div className="flex flex-col justify-center items-center">
                         <Link href="https://minihackathon-p.vercel.app/" passHref>
@@ -80,5 +81,7 @@ export default function Grid() {
         </div>
     )
 }
+
+
 
 
